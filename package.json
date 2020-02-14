@@ -1,0 +1,23 @@
+{
+  "name": "jane-author-site",
+  "version": "1.0.0",
+  "description": "Jane Austen author website ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BritishPandaChick/jane-austen.git"
+  },
+  "author": "Sarah Bartley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BritishPandaChick/jane-austen/issues"
+  },
+  "homepage": "https://github.com/BritishPandaChick/jane-austen#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
+}

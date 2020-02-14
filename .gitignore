@@ -1,0 +1,4 @@
+# Do not track the contents of these file types
+node_modules
+.env
+package-lock.json

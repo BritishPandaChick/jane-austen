@@ -1,0 +1,118 @@
+/* Base Styles */
+body {
+    font-family: Arial;
+    font-size: 20px;
+  }
+  
+  /* Grid System */
+  .full-width {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .half-width {
+    width: 600px;
+    float: left;
+  }
+  
+  /* Header */
+  header {
+    height: 150px;
+    background-color: pink;
+  }
+  
+  header h1 {
+    font-family: 'Marck Script', cursive;
+    font-size: 52px;
+  }
+  
+  header nav {
+    display: inline-block;
+    float: right;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    font-weight: bold;
+    padding-top: 45px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Marck Script';
+    padding: 5px;
+    color: #000;
+  }
+  
+  /* Portrait */
+  #portrait {
+    height: 500px;
+  }
+  
+  img {
+    height: 500px;
+    padding-bottom: 50px;
+  }
+  
+  #portrait h2 {
+    font-family: 'Marck Script';
+    font-size: 42px;
+  }
+  
+  #portrait p {
+    padding-top: 10px;
+    line-height: 40px;
+  }
+  
+  /* News */
+  #news {
+    height: 400px;
+  }
+  
+  #news h3 {
+    font-size: 32px;
+    font-family: 'Marck Script';
+  }
+  
+  #news h4 {
+    font-size: 22px;
+    font-family: 'Marck Script';
+  }
+  
+  #news p {
+    line-height: 42px;
+  }
+  
+  #news button {
+    width: 300px;
+    background-color: pink;
+    color: #000;
+  }
+  
+  /* Contact */
+  #contact {
+    height: 200px;
+  }
+  
+  #contact h3 {
+    font-size: 32px;
+    font-family: 'Marck Script';
+  }
+  
+  #contact p {
+    font-size: 20px;
+    line-height: 32px;
+    padding: 15px;
+  }
+  
+  /* Footer */
+  footer {
+    height: 60px;
+    padding: 15px;
+    background-color: pink;
+  }
+  
+  footer p {
+    font-size: 15px;
+  }

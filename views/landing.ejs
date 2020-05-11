@@ -1,46 +1,90 @@
 <%- include("partials/header") %>
 
-<div class="container">
+<div class="container-fluid">
   <section id="banner">
-    <div class="col-sm-12 col-md-12 col-lg-12">
-      <img src="https://images.newrepublic.com/d96ad313127bcff9e3afab9cd77df7277a8afe0c.jpeg?w=1200&q=65&dpi=2.625&fm=pjpg&h=496" alt="Jane Austen Victorian Portrait" class="img-fluid">
+    <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+      <h1>Jane Austen</h1>
     </div>
   </section>
 
-  <section id="sign-up">
-    <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-      <h3>Want to get weekly advice from Jane? Register for Jane's Advice Column here.</h3>
+  <section id="signup">
+    <div class="col-sm-12 col-md-12 col-lg-12">
+      <h2 class="text-center">Want to get weekly advice from Jane? Register for Jane's Advice Column here.</h2>
+      <p>She grew absolutely ashamed of herself. Of neither Darcy nor Wickham could she think without feeling she had been blind, partial, prejudiced, absurd.</p>
+      
       <form>
-        <input type="text" name="email" placeholder="Sign Up here!">
-        <input type="button" value="submit">
-        <p>She grew absolutely ashamed of herself. Of neither Darcy nor Wickham could she think without feeling she had been blind, partial, prejudiced, absurd.</p>
+        <div class="form-group">
+          <div class="row">
+            <div class="col-sm-12 col-md-9 col-lg-9">
+              <input type="text" class="form-control" name="email" placeholder="Sign Up here!">
+            </div>
+            
+            <div class="col-sm-12 col-md-3 col-lg-3">
+              <input type="button" value="submit" class="btn btn-info form-control">
+            </div>
+          </div>
+        </div>
       </form>
     </div>
   </section>
 
-  <section id="latest">
-    <div class="row">
-      <div class="col-sm-12 col-md-8 col-lg-8">
-        <img src="https://m.media-amazon.com/images/M/MV5BOGRiODEzM2QtOTUyYi00MWRlLTg4MzMtZGI0YmUzNWUyMjQ0XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SY1000_SX675_AL_.jpg" alt="Emma 2020 poster" class="img-responsive">
-      </div>
-  
+  <section id="new">
+    <h2>What's New</h2>
+    <div class="row text-center">
       <div class="col-sm-12 col-md-4 col-lg-4">
-        <p>But when this subject was succeeded by his account of Mr. Wickham--when she read with somewhat clearer attention a relation of events which, if true, must overthrow every cherished opinion of his worth, and which bore so alarming an affinity to his own history of himself--her feelings were yet more acutely painful and more difficult of definition. Astonishment, apprehension, and even horror, oppressed her. She wished to discredit it entirely, repeatedly exclaiming, “This must be false! This cannot be! This must be the grossest falsehood!”--and when she had gone through the whole letter, though scarcely knowing anything of the last page or two, put it hastily away, protesting that she would not regard it, that she would never look in it again.</p>
-        <button class="btn btn block btn-primary">Buy Tickets!</button>
+        <img src="https://m.media-amazon.com/images/M/MV5BOTJmZWIyYTctNGZiYi00ZWQzLThhYzYtMWRkZWU5NzA1ZDEyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SY1000_CR0,0,1436,1000_AL_.jpg" class="img-thumbnail" alt="Emma 2020 Movie Poster" />
+        <h3>Emma 2020</h3>
+      </div>
+
+      <div class="col-sm-12 col-md-4 col-lg-4">
+        <img src="https://m.media-amazon.com/images/M/MV5BZmRlNjkzZDYtMWQ4Ny00ZDNmLTg1NGEtNGMwZmRkNDJlMjFhXkEyXkFqcGdeQXVyNzc5Njk5ODA@._V1_.jpg" alt="Sanditon Charlotte and Sidney Parker" class="img-thumbnail" />
+        <h3>Sandition</h3>
+      </div>
+
+      <div class="col-sm-12 col-md-4 col-lg-4">
+        <img src="https://m.media-amazon.com/images/M/MV5BMzc2OTk3MTg1NF5BMl5BanBnXkFtZTYwNTM5Mzk2._V1_.jpg" alt="Becoming Jane Jane Austen" class="img-thumbnail" />
+        <h3>Becoming Jane</h3>
       </div>
     </div>
+    <button class="btn btn-info">View All</button>
   </section>
 
-  <section id="watching">
-    <div class="row">
+  <section id="books">
+    <h2>Books</h2>
+    <div class="row text-center">
       <div class="col-sm-12 col-md-4 col-lg-4">
-        <p>But when this subject was succeeded by his account of Mr. Wickham--when she read with somewhat clearer attention a relation of events which, if true, must overthrow every cherished opinion of his worth, and which bore so alarming an affinity to his own history of himself--her feelings were yet more acutely painful and more difficult of definition. Astonishment, apprehension, and even horror, oppressed her. She wished to discredit it entirely, repeatedly exclaiming, “This must be false! This cannot be! This must be the grossest falsehood!”--and when she had gone through the whole letter, though scarcely knowing anything of the last page or two, put it hastily away, protesting that she would not regard it, that she would never look in it again.</p>
-        <buton class="btn btn block btn-primary">Learn More</buton>
+        <h3>Sense and Sensibilty</h3>
       </div>
 
-      <div class="col-sm-12 col-md-8 col-lg-8">
-        <img src="https://m.media-amazon.com/images/M/MV5BOTI2NWYzZTItMjlhYy00YWY4LWE0YTktZTFiNmUzZjFlNjY1XkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_.jpg" alt="Sanditon poster" class="img-responsive">
+      <div class="col-sm-12 col-md-4 col-lg-4">
+        <h3>Pride and Prejudice</h3>
       </div>
+
+      <div class="col-sm-12 col-md-4 col-lg-4">
+        <h3>Mansfield Park</h3>
+      </div>
+
+      <div class="col-sm-12 col-md-4 col-lg-4">
+        <h3>Emma</h3>
+      </div>
+
+      <div class="col-sm-12 col-md-4 col-lg-4">
+        <h3>Northanger Abbey</h3>
+      </div>
+
+      <div class="col-sm-12 col-md-4 col-lg-4">
+        <h3>Persuasion</h3>
+      </div>
+    </div>
+    <button class="btn btn-info">View All Works</button>
+  </section>
+
+  <section id="quote">
+    <div class="col-sm-12 col-md-12 col-lg-12">
+      <blockquote>
+        <p>I do not want people to be very agreeable, as it saves me the trouble of liking them a great deal.</p>
+        <p><cite>Jane Austen</cite></p>
+      </blockquote>
     </div>
   </section>
 
@@ -57,7 +101,7 @@
       </div>
 
       <div class="col-sm-12 col-md-4 col-lg-4">
-        <h4>Works</h4>
+        <h4 class="text-center">Works</h4>
         <ul>
           <li><a href="/books">Sense and Sensibilty</a></li>
           <li><a href="/books">Pride and Prejudice</a></li>
@@ -71,7 +115,7 @@
       </div>
 
       <div class="col-sm-12 col-md-4 col-lg-4">
-        <h4>About Jane</h4>
+        <h4 class="text-center">About Jane</h4>
         <ul>
           <li><a href="/about">Biography</a></li>
           <li><a href="#">Jane Reviews</a></li>

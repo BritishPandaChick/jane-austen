@@ -4,4 +4,37 @@ body {
     color: #333;
     width: 100%;
     margin: 0 auto;
+    font-family: "Arial", sans-serif;
+}
+
+/* Header */
+header {
+    border: 2px solid #e7a0ae;
+}
+
+header h1 {
+    font-family: 'Marck Script', cursive;
+    font-size: 52px;
+    color: #ad2139;
+}
+
+header h1 a {
+    color: #ad2139;
+    text-decoration: none;
+}
+
+header h1 a:hover {
+    color:#f7d3e4;
+}
+
+header button {
+    color: #ad2139
+}
+
+header nav ul li a {
+    color: #ad2139
+}
+
+header nav ul li a:hover {
+    color: #e7a0ae;
 }

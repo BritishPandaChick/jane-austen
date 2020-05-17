@@ -72,10 +72,58 @@ footer nav ul li a:hover {
 
 #signup {
     background-color: #ad2139;
+    padding: 40px 0;
 }
 
 #signup h2 {
     font-family: "Marck Script", cursive;
-    font-size: 30px;
     color: #f7d3e4;
+    font-size: 30px;
+}
+
+#signup h3 {
+    color: #fff;
+    font-size: 25px;
+}
+
+#signup form input {
+    margin: 10px 0;
+}
+
+#signup form .btn, #new .btn, #books .btn {
+    font-size: 20px;
+    background-color: #c76982;
+    border-color: #c76982;
+    color: #fff;
+}
+
+#new {
+    padding: 40px 0;
+}
+
+#new h2, #books h2 {
+    font-size: 30px;
+    color:#ad2139;
+    font-family: "Marck Script", cursive;
+}
+
+#new img {
+    margin-bottom: 15px;
+}
+
+#new h3 {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+#books {
+    padding: 20px 0;
+}
+
+#books .box {
+    width: 95%;
+    background-color: #ad2139;
+    color: #fff;
+    margin: 15px 0;
+    padding: 15px;
 }

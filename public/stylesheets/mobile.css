@@ -14,7 +14,6 @@ header {
 header h1 {
     font-family: 'Marck Script', cursive;
     font-size: 52px;
-    color: #e7a0ae
 }
 
 header h1 a {
@@ -27,7 +26,7 @@ header h1 a:hover {
 }
 
 header nav ul li a {
-    color: #e7a0ae;
+    color: #fff;
     font-size: 20px;
 }
 
@@ -38,16 +37,16 @@ header nav ul li a:hover {
 /* Footer */
 footer {
     background-color: #ad2139;
-    padding: 15px 0;
+    padding: 15px;
 }
 
 footer p {
     font-size: 18px;
-    color: #e7a0ae;
+    color: #fff;
 }
 
 footer nav ul li a {
-    color: #e7a0ae;
+    color: #fff;
 }
 
 footer nav ul li a:hover {
@@ -67,7 +66,7 @@ footer nav ul li a:hover {
     font-size: 30px;
     font-family: "Marck Script", cursive;
     color: #ad2139;
-    padding: 80px 0;
+    padding: 200px 0;
 }
 
 #signup {
@@ -126,4 +125,55 @@ footer nav ul li a:hover {
     color: #fff;
     margin: 15px 0;
     padding: 15px;
+}
+
+#quote {
+    background-color: #c76982;
+    padding: 50px 0;
+}
+
+#quote blockquote p {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Marck Script', cursive;
+}
+
+/* About Jane */
+#bio {
+    padding: 20px 0;
+}
+
+#bio h2 {
+    font-family: 'Marck Script', cursive;
+    font-size: 30px;
+    color:#ad2139;
+}
+
+#bio p {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+#timeline {
+    padding: 15px 0;
+}
+
+#timeline h3 {
+    font-size: 25px;
+    font-family: 'Marck Script', cursive;
+    color:#ad2139;
+    padding-bottom: 15px;
+}
+
+#timeline h4 {
+    font-size: 20px;
+}
+
+#timeline ul li {
+    font-size: 20px;
+}
+
+/* Books */
+#new-works {
+    padding: 20px 0;
 }

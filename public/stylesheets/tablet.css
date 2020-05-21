@@ -1,0 +1,140 @@
+/* Base Styles */
+body {
+    color: #333;
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Arial", sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #ad2139;
+}
+
+header h1 {
+    font-family: 'Marck Script', cursive;
+    font-size: 37px;
+}
+
+header h1 a {
+    color: #e7a0ae;
+    text-decoration: none;
+}
+
+header h1 a:hover {
+    color:#f7d3e4;
+}
+
+header nav ul li a {
+    color: #fff;
+    font-size: 20px;
+}
+
+header nav ul li a:hover {
+    color: #f7d3e4;
+}
+
+/* Footer */
+footer {
+    background-color: #ad2139;
+    padding: 15px;
+}
+
+footer p {
+    font-size: 18px;
+    color: #fff;
+}
+
+footer nav ul li a {
+    color: #fff;
+}
+
+footer nav ul li a:hover {
+    color: #f7d3e4;
+}
+
+/* Landing */
+#banner {
+    background-image: url("https://images.newrepublic.com/d96ad313127bcff9e3afab9cd77df7277a8afe0c.jpeg?w=1200&q=65&dpi=2.625&fm=pjpg&h=496");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 500px;
+}
+
+#banner h2 {
+    font-size: 35px;
+    font-family: "Marck Script", cursive;
+    color: #ad2139;
+    padding: 200px 0;
+}
+
+#signup {
+    background-color: #ad2139;
+    padding: 40px 0;
+}
+
+#signup h2 {
+    font-family: "Marck Script", cursive;
+    color: #f7d3e4;
+    font-size: 35px;
+}
+
+#signup h3 {
+    color: #fff;
+    font-size: 30px;
+    padding: 15px 0;
+}
+
+#signup form input {
+    margin: 10px 0;
+}
+
+#signup form .btn, #new .btn, #books .btn {
+    font-size: 20px;
+    background-color: #c76982;
+    border-color: #c76982;
+    color: #fff;
+}
+
+#new {
+    padding: 40px 0;
+}
+
+#new h2, #books h2 {
+    font-size: 35px;
+    color:#ad2139;
+    font-family: "Marck Script", cursive;
+}
+
+#new img {
+    margin-bottom: 15px;
+}
+
+#new h3 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+#books {
+    padding: 20px 0;
+}
+
+#books .box {
+    width: 100%;
+    background-color: #ad2139;
+    color: #fff;
+    padding: 15px;
+    border: 2px solid blue;
+}
+
+#quote {
+    background-color: #c76982;
+    padding: 50px 0;
+}
+
+#quote blockquote p {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Marck Script', cursive;
+}

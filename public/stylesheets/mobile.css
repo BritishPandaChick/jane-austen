@@ -13,7 +13,7 @@ header {
 
 header h1 {
     font-family: 'Marck Script', cursive;
-    font-size: 52px;
+    font-size: 35px;
 }
 
 header h1 a {
@@ -264,7 +264,7 @@ footer nav ul li a:hover {
 }
 
 /* Media */
-#movie, #tv {
+#movie, #tv, #adapt-types {
     padding: 20px 0;
 }
 
@@ -293,5 +293,18 @@ footer nav ul li a:hover {
 }
 
 #movie img, #tv img {
-    padding: 20px 0;
+    padding: 40px 0;
+}
+
+#adapt-types .box {
+    width: 100%;
+    background-color: #ad2139;
+    margin: 15px 0;
+    padding: 15px;
+}
+
+#adapt-types a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
 }

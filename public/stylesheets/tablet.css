@@ -121,20 +121,117 @@ footer nav ul li a:hover {
 }
 
 #books .box {
-    width: 100%;
     background-color: #ad2139;
+    border: 2px solid #c76982;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+#books a {
+    font-size: 20px;
     color: #fff;
-    padding: 15px;
-    border: 2px solid blue;
+    text-decoration: none;
+}
+
+#books button {
+    margin-top: 15px;
 }
 
 #quote {
     background-color: #c76982;
-    padding: 50px 0;
+    padding: 30px 0;
 }
 
 #quote blockquote p {
     color: #fff;
     font-size: 20px;
     font-family: 'Marck Script', cursive;
+}
+
+/* About Jane */
+#bio {
+    padding: 20px 0;
+}
+
+#bio h2 {
+    font-family: 'Marck Script', cursive;
+    font-size: 35px;
+    color:#ad2139;
+    padding: 15px 0;
+}
+
+#bio p {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+#timeline {
+    padding: 15px 0;
+}
+
+#timeline h3 {
+    font-size: 30px;
+    font-family: 'Marck Script', cursive;
+    color:#ad2139;
+    padding-bottom: 15px;
+}
+
+#timeline h4 {
+    font-size: 25px;
+}
+
+#timeline ul li {
+    font-size: 20px;
+}
+
+/* Books */
+#new-works, #novels, #juvenila, #misc {
+    padding: 20px 0;
+}
+
+#new-works h2 {
+    font-family: 'Marck Script', cursive;
+    font-size: 35px;
+    color:#ad2139;
+    padding: 15px 0;
+}
+
+#new-works h4, #novels h4 {
+    font-size: 25px;
+}
+
+#new-works h4 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+#new-works p, #novels p {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+#new-works .btn, #novels .btn {
+    font-size: 20px;
+    background-color: #c76982;
+    border-color: #c76982;
+    color: #fff;
+    margin: 15px 0;
+}
+
+#novels h3, #juvenila h3, #misc h3 {
+    font-size: 30px;
+    font-family: 'Marck Script', cursive;
+    color:#ad2139;
+}
+
+#novels img {
+    margin: 20px 0;
+}
+
+#novels h4, #juvenila h4 {
+    text-align: center;
+}
+
+#juvenila ul li,#misc ul li {
+    font-size: 20px;
 }

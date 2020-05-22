@@ -122,9 +122,14 @@ footer nav ul li a:hover {
 #books .box {
     width: 100%;
     background-color: #ad2139;
-    color: #fff;
     margin: 15px 0;
     padding: 15px;
+}
+
+#books a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
 }
 
 #quote {
@@ -299,7 +304,7 @@ footer nav ul li a:hover {
 #adapt-types .box {
     width: 100%;
     background-color: #ad2139;
-    margin: 15px 0;
+    margin: 15px;
     padding: 15px;
 }
 

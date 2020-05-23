@@ -1,3 +1,239 @@
+/* Base Styles */
+body {
+    color: #333;
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Arial", sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #ad2139;
+}
+
+header h1 {
+    font-family: 'Marck Script', cursive;
+    font-size: 55px;
+}
+
+header h1 a {
+    color: #e7a0ae;
+    text-decoration: none;
+}
+
+header h1 a:hover {
+    color:#f7d3e4;
+    text-decoration: none;
+}
+
+header nav ul li a {
+    color: #fff;
+    font-size: 20px;
+}
+
+header nav ul li a:hover {
+    color: #f7d3e4;
+}
+
+/* Footer */
+footer {
+    background-color: #ad2139;
+    padding: 15px;
+}
+
+footer p {
+    font-size: 16px;
+    color: #fff;
+}
+
+footer nav ul li a {
+    color: #fff;
+}
+
+footer nav ul li a:hover {
+    color: #f7d3e4;
+}
+
+/* Landing */
 #banner {
-    background:url("https://images.newrepublic.com/d96ad313127bcff9e3afab9cd77df7277a8afe0c.jpeg?w=1200&q=65&dpi=2.625&fm=pjpg&h=496");
+    background-image: url("https://images.newrepublic.com/d96ad313127bcff9e3afab9cd77df7277a8afe0c.jpeg?w=1200&q=65&dpi=2.625&fm=pjpg&h=496");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 500px;
+}
+
+#banner h2 {
+    font-size: 40px;
+    font-family: "Marck Script", cursive;
+    color: #ad2139;
+    padding: 200px 0;
+}
+
+#signup {
+    background-color: #ad2139;
+    padding: 40px 0;
+}
+
+#signup h2 {
+    font-family: "Marck Script", cursive;
+    color: #f7d3e4;
+    font-size: 40px;
+}
+
+#signup h3 {
+    color: #fff;
+    font-size: 35px;
+    padding: 15px 0;
+}
+
+#signup form input {
+    margin: 10px 0;
+}
+
+#signup form .btn, #new .btn, #books .btn {
+    font-size: 20px;
+    background-color: #c76982;
+    border-color: #c76982;
+    color: #fff;
+}
+
+#new {
+    padding: 40px 0;
+}
+
+#new h2, #books h2 {
+    font-size: 40px;
+    color:#ad2139;
+    font-family: "Marck Script", cursive;
+}
+
+#new img {
+    margin-bottom: 15px;
+}
+
+#new h3 {
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+#books {
+    padding: 20px 0;
+}
+
+#books .box {
+    background-color: #ad2139;
+    border: 2px solid #c76982;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+#books a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#books button {
+    margin-top: 15px;
+}
+
+#quote {
+    background-color: #c76982;
+    padding: 30px 0;
+}
+
+#quote blockquote p {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Marck Script', cursive;
+    text-align: center;
+}
+
+/* About Jane */
+#bio {
+    padding: 20px 0;
+}
+
+#bio h2 {
+    font-family: 'Marck Script', cursive;
+    font-size: 40px;
+    color:#ad2139;
+    padding: 15px 0;
+}
+
+#bio p {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+#timeline {
+    padding: 15px 0;
+}
+
+#timeline h3 {
+    font-size: 35px;
+    font-family: 'Marck Script', cursive;
+    color:#ad2139;
+    padding-bottom: 15px;
+}
+
+#timeline h4 {
+    font-size: 30px;
+}
+
+#timeline ul li {
+    font-size: 20px;
+}
+
+/* Books */
+#new-works, #novels, #juvenila, #misc {
+    padding: 20px 0;
+}
+
+#new-works h2 {
+    font-family: 'Marck Script', cursive;
+    font-size: 35px;
+    color:#ad2139;
+    padding: 15px 0;
+}
+
+#new-works h4, #novels h4 {
+    font-size: 25px;
+}
+
+#new-works h4 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+#new-works p, #novels p {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+#new-works .btn, #novels .btn {
+    font-size: 20px;
+    background-color: #c76982;
+    border-color: #c76982;
+    color: #fff;
+    margin: 25px 0;
+}
+
+#novels h3, #juvenila h3, #misc h3 {
+    font-size: 30px;
+    font-family: 'Marck Script', cursive;
+    color:#ad2139;
+}
+
+#novels img {
+    margin: 20px 0;
+}
+
+#novels h4, #juvenila h4 {
+    text-align: center;
+}
+
+#juvenila ul li,#misc ul li {
+    font-size: 20px;
 }

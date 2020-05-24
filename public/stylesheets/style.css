@@ -193,13 +193,13 @@ footer nav ul li a:hover {
 
 #new-works h2 {
     font-family: 'Marck Script', cursive;
-    font-size: 35px;
+    font-size: 40px;
     color:#ad2139;
     padding: 15px 0;
 }
 
 #new-works h4, #novels h4 {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 #new-works h4 {
@@ -221,7 +221,7 @@ footer nav ul li a:hover {
 }
 
 #novels h3, #juvenila h3, #misc h3 {
-    font-size: 30px;
+    font-size: 35px;
     font-family: 'Marck Script', cursive;
     color:#ad2139;
 }
@@ -236,4 +236,90 @@ footer nav ul li a:hover {
 
 #juvenila ul li,#misc ul li {
     font-size: 20px;
+}
+
+/* Advice */
+#rules, #topics {
+    padding: 20px 0;
+}
+
+#rules h2 {
+    font-family: 'Marck Script', cursive;
+    font-size: 40px;
+    color:#ad2139;
+}
+
+#rules p {
+    font-size: 20px;
+    line-height: 32px;
+    padding-bottom: 15px;
+}
+
+#rules h3 {
+    font-size: 35px;
+    font-family: 'Marck Script', cursive;
+    color:#ad2139;
+}
+
+#rules ol li {
+    font-size: 20px;
+}
+
+#topics .box {
+    background-color: #ad2139;
+    border: 2px solid #c76982;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+#topics a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Media */
+#movie, #tv, #adapt-types {
+    padding: 20px 0;
+}
+
+#movie h2 {
+    font-family: 'Marck Script', cursive;
+    font-size: 40px;
+    color:#ad2139;
+}
+
+#movie h3, #tv h3 {
+    font-size: 35px;
+    font-family: 'Marck Script', cursive;
+    color:#ad2139;
+}
+
+#movie p, #tv p {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+#movie .btn, #tv .btn {
+    font-size: 20px;
+    background-color: #c76982;
+    border-color: #c76982;
+    color: #fff;
+}
+
+#movie img, #tv img {
+    padding: 40px 0;
+}
+
+#adapt-types .box {
+    background-color: #ad2139;
+    border: 2px solid #c76982;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+#adapt-types a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
 }
